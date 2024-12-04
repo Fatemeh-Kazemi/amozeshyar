@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+    /*font-family: IRANSans,Tahoma,sans-serif;*/
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: right;
+    background-color: #fff;
+}
+#main-header, #footer-section{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+nav{
+    background: #0f264f;;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(240, 240, 240) !important;
+}
+
+a{
+    text-decoration: none;
+}
+.dropdown-menu{
+    width: 250px !important;
+}
+
+#footer-section{
+    background: #0f264f;
+}
+#footer-section li.nav-link > a{
+    color:#fff;
+}
+#navbarSupportedContent{
+    justify-content: end;
+}
+
+/***** teacher *****/
+.teacher-img{
+    opacity: 0.4;
+    width: 80%;
+    margin: 10px auto;
+}
+.card{
+    cursor: pointer;
+}
+.card-image{
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.page-header-section {
+    min-height: 220px;
+    margin-top: 60px;
+    padding-bottom: 10px;
+    background: linear-gradient(rgba(28,30,28,.3),rgba(213,219,213,.3)),url(../images/background_pages.png);
+}
+.page-header-section h1 {
+    padding-top: 80px;
+    text-align: center;
+}
+.line-height-custom1 {
+    line-height: 30px;
+}
+.post_details {
+    color: #8e8e95;
+    font-weight: 400;
+    font-size: 12px;
+}
+.card .card-body h2{
+    height: 45px;
+}
+.card .card-body > h5{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+#navbarSupportedContent{
+    justify-content: end;
+}
